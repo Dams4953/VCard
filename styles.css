@@ -83,7 +83,7 @@ p {
     border-radius: 10px;
     margin-top: 30px;
 }
-.containerlogo {
+.containergridlogo {
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 1px;
@@ -93,3 +93,15 @@ p {
 }
 /* fin des logo liens*/
 
+#imgaccueil {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 800px;
+    height: auto;
+    opacity: 80%;
+    border: 10px solid rgb(85, 103, 121);
+    
+}
