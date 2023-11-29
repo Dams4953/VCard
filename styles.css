@@ -28,6 +28,9 @@ body {
     margin-top: 300px;
     margin-left: 50px;
     font-family: serif;
+    border-bottom: 1px solid #d6d9db;
+    margin-right: 450px;
+    
 }
 
 #gsmh2 {
@@ -35,6 +38,8 @@ body {
     margin-left: 50px;
     font-family: serif;
     margin-top: 50px;
+    border-bottom: 1px solid #d6d9db;
+    margin-right: 450px;
 }
 
 #mail {
@@ -62,7 +67,7 @@ p {
 #github {
     width: 70px;
     height: 70px; 
-    margin-left: 30px;
+    margin-left: 50px;
     border-radius: 10px;
     margin-top: 30px;
 }
@@ -73,13 +78,13 @@ p {
     height: 70px;
     border-radius: 10px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #facebook {
     width: 70px;
     height: 70px; 
-    margin-left: 9px;
+    margin-left: 28px;
     border-radius: 10px;
     margin-top: 30px;
 }
@@ -103,5 +108,77 @@ p {
     height: auto;
     opacity: 80%;
     border: 10px solid rgb(85, 103, 121);
+}
+/*début text présensation*/
+.containergridtext {
+    display: grid;
+    grid-template-columns: 400px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
     
+}
+
+h1 {
+    color: #e6e6fa;
+    font-family: serif;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: inset 2.70px 4.68px 7.38px -0.92px rgba(0, 0, 0, 0.15),
+    inset -4.05px -7.01px 7.38px -0.92px rgba(0, 0, 0, 0.3),
+    8.10px 14.03px 5.53px -2.77px rgba(0, 0, 0, 0.6);
+}
+
+#gridtexth2 {
+    color: #e6e6fa;
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+#pgridtext {
+    color: #e6e6fa;
+    font-family: cursive;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+
+}
+/*fin text présensation*/
+
+.containergridboutons {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    position: absolute;
+    top: 70%;
+    right: 190px;
+    transform: translateY(-50%);
+}
+
+.gridbutton {
+    background-color: rgb(47, 75, 94);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 20px;
+    box-shadow: inset 2.70px 4.68px 7.38px -0.92px rgba(0, 0, 0, 0.15),
+    inset -4.05px -7.01px 7.38px -0.92px rgba(0, 0, 0, 0.3),
+    8.10px 14.03px 5.53px -2.77px rgba(0, 0, 0, 0.6);
+  
+}
+
+.gridbutton:hover {
+    background-color: white; /* Fond blanc au survol */
+    color: #3498db; /* Changement de couleur du texte */
 }
