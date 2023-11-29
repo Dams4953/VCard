@@ -1,0 +1,95 @@
+#logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px; 
+}
+
+body {
+    background: linear-gradient(#27384A, #1B2C3C);
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+      
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-right: 1200px;
+    padding-bottom: 500px;
+    background: linear-gradient(#27384A, #1B2C3C, #121E29);
+}
+
+#mailh2 {
+    color: #e6e6fa;
+    margin-top: 300px;
+    margin-left: 50px;
+    font-family: serif;
+}
+
+#gsmh2 {
+    color: #e6e6fa;
+    margin-left: 50px;
+    font-family: serif;
+    margin-top: 50px;
+}
+
+#mail {
+    color: #e6e6fa;
+    margin-left: 50px;
+    font-family: cursive;
+}
+
+#gsm {
+    color: #e6e6fa;
+    margin-left: 50px;
+    font-family: cursive;
+}
+
+p {
+    color: #e6e6fa;
+    margin-left: 50px;
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 80px;
+}
+
+
+/* début des logo liens*/
+#github {
+    width: 70px;
+    height: 70px; 
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+    
+
+#linkedin {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#facebook {
+    width: 70px;
+    height: 70px; 
+    margin-left: 9px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.containerlogo {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 1px;
+    background: #121E29;
+    margin-right: 1200px;
+    padding-bottom: 250px;
+}
+/* fin des logo liens*/
+
